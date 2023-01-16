@@ -4,7 +4,7 @@ require("dotenv").config();
 require("./Model/config");
 const userRoutes = require("./Routes/userRoutes");
 const todoRoutes = require("./Routes/todoRoutes");
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3015;
 const cors = require("cors");
 
 app.use(express.json());
